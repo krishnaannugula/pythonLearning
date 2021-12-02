@@ -1,0 +1,32 @@
+noun (name,place,animal) ==> Class
+
+Adjective ==> Attributes 
+Adjectives are words that describe or modify another person or thing in the sentence
+
+Verb ==> Methods 
+Verbs are words used to describe an action, state, or occurrence, and form the main part of the predicate of a sentence, such as hear, become, happen etc
+
+
+Class is a blueprint  which contains Attributes and Methods
+while object is an execution of that blue print
+
+
+
+why to give a self input while calling method as due to below explination
+
+ex:- Employee is a classs
+     employeeDetails is a Method with in Employee Class
+     getEmployeeDetails is a object which calls Employee Class
+
+    getEmployeeDetails = Employee() # object is instanciated by Employee Class
+    getEmployeeDetails= employeeDetails() # callsing method of the Employee class
+
+    # which execute like this when object is instanciated 
+    Employee.employeeDetails(getEmployeeDetails) which represents the self declartion in the method of that object.
+
+
+@staticmethod
+making use of decoartor @staticmethod 
+decoraters are function takes another function and extends there functaionality they are denaoted by starting them with @ symbol
+@staticmethod is decorator in python takes the funationa nd its functionality and ignore its binding of the object and python understands the binding has benn ingonred
+ 
